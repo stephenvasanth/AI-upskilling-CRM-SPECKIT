@@ -1,0 +1,45 @@
+# Maven build output
+target/
+
+# Compiled classes
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+
+# Logs
+*.log
+logs/
+
+# Spring Boot local overrides
+application-local.yml
+application-local.properties
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE — IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE — Eclipse / STS
+.settings/
+.classpath
+.project
+.factorypath
+bin/
+
+# IDE — VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

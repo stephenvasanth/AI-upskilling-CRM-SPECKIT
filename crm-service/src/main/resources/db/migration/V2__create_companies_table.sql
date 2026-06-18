@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS companies (
+    id   VARCHAR(36)  PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);

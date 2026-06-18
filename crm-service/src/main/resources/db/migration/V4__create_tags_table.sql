@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tags (
+    id         VARCHAR(36)  PRIMARY KEY,
+    name       VARCHAR(100) NOT NULL,
+    colour     VARCHAR(7)   NOT NULL,
+    created_at TIMESTAMPTZ  NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

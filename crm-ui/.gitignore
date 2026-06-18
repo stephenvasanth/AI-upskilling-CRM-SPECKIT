@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Angular build output and cache
+dist/
+.angular/
+
+# Test coverage
+coverage/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE — VS Code
+.vscode/
+
+# IDE — IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+.cache/
+.npm/

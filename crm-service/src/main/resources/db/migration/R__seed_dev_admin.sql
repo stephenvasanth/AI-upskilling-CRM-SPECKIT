@@ -1,0 +1,3 @@
+-- Dev seed is handled by DevDataInitializer.java (Spring @Profile("dev"))
+-- so that BCryptPasswordEncoder correctly hashes the password at runtime.
+-- This file intentionally left as a no-op.
